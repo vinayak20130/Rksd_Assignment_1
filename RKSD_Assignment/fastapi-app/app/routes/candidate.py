@@ -7,7 +7,6 @@ from app.models.candidate import Candidate
 from app.schemas.candidate import CandidateCreate, CandidateResponse, CandidateUpdate
 
 router = APIRouter(
-    tags=["candidates"],
     responses={404: {"description": "Not found"}},
 )
 

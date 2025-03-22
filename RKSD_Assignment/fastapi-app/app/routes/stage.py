@@ -7,7 +7,6 @@ from app.models.stage import Stage
 from app.schemas.stage import StageCreate, StageResponse, StageUpdate
 
 router = APIRouter(
-    tags=["stages"],
     responses={404: {"description": "Stage not found"}}
 )
 

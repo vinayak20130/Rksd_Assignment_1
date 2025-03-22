@@ -7,7 +7,6 @@ from app.models.experience import Experience
 from app.schemas.experience import ExperienceCreate, ExperienceResponse, ExperienceUpdate
 
 router = APIRouter(
-    tags=["experiences"],
     responses={404: {"description": "Experience not found"}}
 )
 

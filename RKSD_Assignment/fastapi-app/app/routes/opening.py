@@ -7,7 +7,6 @@ from app.database.connection import get_db
 from app.schemas.opening import OpeningCreate, OpeningResponse, OpeningUpdate
 
 router = APIRouter(
-    tags=["openings"],
     responses={404: {"description": "Opening not found"}}
 )
 

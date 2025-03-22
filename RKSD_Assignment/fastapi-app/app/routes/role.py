@@ -7,7 +7,6 @@ from app.models.role import Role
 from app.schemas.role import RoleCreate, RoleResponse, RoleUpdate
 
 router = APIRouter(
-    tags=["Roles"],
     responses={404: {"description": "Role not found"}}
 )
 

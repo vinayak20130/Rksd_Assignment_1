@@ -15,7 +15,6 @@ from app.schemas.application import ApplicationCreate, ApplicationUpdate, Applic
 from app.utils.pdf_generator import generate_application_pdf
 
 router = APIRouter(
-    tags=["applications"],
     responses={404: {"description": "Application not found"}}
 )
 

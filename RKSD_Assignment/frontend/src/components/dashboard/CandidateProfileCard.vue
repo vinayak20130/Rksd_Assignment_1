@@ -2,9 +2,7 @@
   <div class="bg-[#1E1E1E] rounded-xl p-4 flex flex-col items-center">
     <!-- Profile section -->
     <div class="flex flex-col items-center gap-2 mb-8">
-      <div
-        class="w-24 h-24 rounded-full bg-[#333] flex items-center justify-center text-3xl overflow-hidden"
-      >
+      <div class="w-24 h-24 rounded-full bg-[#333] flex items-center justify-center text-3xl overflow-hidden">
         {{ candidate.avatar }}
       </div>
       <div class="text-center">

@@ -8,7 +8,7 @@ from sqlalchemy.orm import sessionmaker
 load_dotenv()
 
 # Get database URL from environment variables with a fallback to SQLite
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./test.db")
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./fresh_db.db")
 
 # Configure the database engine based on the database type
 if DATABASE_URL.startswith("sqlite"):
